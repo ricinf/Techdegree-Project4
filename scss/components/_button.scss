@@ -1,0 +1,34 @@
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $btn-color;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    &:hover {
+      background-color: lighten($hover-btn, 25%);
+      //  Exceeds Expectations? Used lighthen function.  
+      //  Exceeds Expectations? Nested styles and used parent selector below.  
+    }
+  }
+  
+  .default {
+    background-color: $links-button;
+  }
+  
+  .error {
+    background-color: $error-btn-col-9;
+  }
+  
+  .info {
+    background-color: $info-btn-col-1;
+  }
+  
+  .success {
+    background-color: $success-btn-col-10;
+  }
+  
+  .warning {
+    background-color: $warning-btn-col-2;
+  }
